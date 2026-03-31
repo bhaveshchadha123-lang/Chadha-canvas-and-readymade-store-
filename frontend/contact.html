@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Chadha Canvas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🌾 Chadha Canvas</h1>
+                <p>Premium Tarpaulin & Green Shades Net</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="cart.html" class="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact" style="min-height: 600px;">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 50px; font-size: 18px;">
+                Have questions about our products? Need customized solutions? <br>
+                We'd love to hear from you!
+            </p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1200px; margin: 0 auto;">
+                <!-- Contact Form -->
+                <form id="contact-form" class="contact-form" style="background: white; padding: 30px; 
+                      border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <h3 style="color: var(--primary-color); margin-bottom: 20px;">Send us a Message</h3>
+                    
+                    <input type="text" placeholder="Your Full Name" required 
+                           style="width: 100%; padding: 12px 15px; margin-bottom: 15px; 
+                           border: 1px solid var(--border-color); border-radius: 5px; font-size: 16px;">
+                    
+                    <input type="email" placeholder="Your Email Address" required 
+                           style="width: 100%; padding: 12px 15px; margin-bottom: 15px; 
+                           border: 1px solid var(--border-color); border-radius: 5px; font-size: 16px;">
+                    
+                    <input type="tel" placeholder="Phone Number" required 
+                           style="width: 100%; padding: 12px 15px; margin-bottom: 15px; 
+                           border: 1px solid var(--border-color); border-radius: 5px; font-size: 16px;">
+                    
+                    <textarea placeholder="Your Message" rows="6" required 
+                              style="width: 100%; padding: 12px 15px; margin-bottom: 15px; 
+                              border: 1px solid var(--border-color); border-radius: 5px; 
+                              font-size: 16px; font-family: inherit; resize: vertical;"></textarea>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px;">
+                        Send Message 📧
+                    </button>
+                </form>
+
+                <!-- Contact Information -->
+                <div style="display: flex; flex-direction: column; gap: 30px;">
+                    <div style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); 
+                               color: white; padding: 30px; border-radius: 10px; 
+                               box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                        <h3 style="margin-bottom: 20px; font-size: 20px;">Contact Information</h3>
+                        
+                        <div style="margin-bottom: 25px;">
+                            <p style="font-weight: 600; margin-bottom: 5px;">📍 Address</p>
+                            <p style="opacity: 0.9;">Chadha Canvas Store<br>
+                            Agricultural Market<br>
+                            Near Grain Mandi</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 25px;">
+                            <p style="font-weight: 600; margin-bottom: 5px;">📞 Phone</p>
+                            <p style="opacity: 0.9;">+91-XXXXXXXXXX<br>
+                            WhatsApp: +91-XXXXXXXXXX</p>
+                        </div>
+                        
+                        <div style="margin-bottom: 25px;">
+                            <p style="font-weight: 600; margin-bottom: 5px;">📧 Email</p>
+                            <p style="opacity: 0.9;">info@chadhacanvas.com<br>
+                            orders@chadhacanvas.com</p>
+                        </div>
+                        
+                        <div>
+                            <p style="font-weight: 600; margin-bottom: 5px;">⏰ Business Hours</p>
+                            <p style="opacity: 0.9;">Monday - Friday: 8:00 AM - 6:00 PM<br>
+                            Saturday: 8:00 AM - 4:00 PM<br>
+                            Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div style="background: var(--light-bg); padding: 30px; border-radius: 10px; 
+                               border-left: 4px solid var(--accent-color);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 15px;">Why Contact Us?</h3>
+                        <ul style="color: #666; line-height: 1.8;">
+                            <li>✓ Product inquiries and specifications</li>
+                            <li>✓ Bulk order pricing</li>
+                            <li>✓ Custom product requirements</li>
+                            <li>✓ Delivery information</li>
+                            <li>✓ Technical support</li>
+                            <li>✓ Feedback and suggestions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section style="padding: 80px 20px; background-color: var(--light-bg);">
+        <div class="container">
+            <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 50px;">We Serve</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+                <div style="background: white; padding: 20px; border-radius: 10px; text-align: center; 
+                           box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 18px;">🌾 Farms & Gardens</p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; text-align: center; 
+                           box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 18px;">🚜 Agriculture Business</p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; text-align: center; 
+                           box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 18px;">🏢 Contractors</p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; text-align: center; 
+                           box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 18px;">🏪 Retailers</p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; text-align: center; 
+                           box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 18px;">🏗️ Construction Sites</p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; text-align: center; 
+                           box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 18px;">🎪 Events & Flooring</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 80px 20px;">
+        <div class="container">
+            <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 50px;">Frequently Asked Questions</h2>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 25px; padding: 20px; background: var(--light-bg); border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 10px;">How long do your products last?</h4>
+                    <p style="color: #666;">Our tarpaulin sheets last 3-5 years depending on weather conditions. 
+                    Green shade nets typically last 2-3 seasons with proper care.</p>
+                </div>
+
+                <div style="margin-bottom: 25px; padding: 20px; background: var(--light-bg); border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 10px;">Do you offer bulk discounts?</h4>
+                    <p style="color: #666;">Yes! We provide special pricing for bulk orders. Contact us with your 
+                    requirements for a custom quote.</p>
+                </div>
+
+                <div style="margin-bottom: 25px; padding: 20px; background: var(--light-bg); border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 10px;">What is the delivery timeframe?</h4>
+                    <p style="color: #666;">Standard delivery within 3-5 business days. We also offer express 
+                    shipping for urgent orders.</p>
+                </div>
+
+                <div style="margin-bottom: 25px; padding: 20px; background: var(--light-bg); border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 10px;">Which shade percentage should I choose?</h4>
+                    <p style="color: #666;">For most vegetables: 40-60%. For delicate plants and nurseries: 60-80%. 
+                    Contact us for personalized recommendations.</p>
+                </div>
+
+                <div style="margin-bottom: 25px; padding: 20px; background: var(--light-bg); border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 10px;">Do you provide custom sizes?</h4>
+                    <p style="color: #666;">Yes! We can provide customized sizes for large orders. Please contact 
+                    us with your specifications.</p>
+                </div>
+
+                <div style="padding: 20px; background: var(--light-bg); border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 10px;">Do you offer warranty?</h4>
+                    <p style="color: #666;">All our products come with quality guarantee. We handle defects and 
+                    damages within 30 days of purchase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Chadha Canvas. All rights reserved. | Your trusted partner in agricultural protection</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
